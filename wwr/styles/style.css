@@ -13,21 +13,21 @@
 }
 
 body {
-    background-color: var(--primary-color)
+    background-color: var(--accent2-color)
 }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 header {
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 .logo, .icon {
     width: 80px;
 }
 #background {
     height: 725px;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 nav a {
     text-align: center;
@@ -35,17 +35,26 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: var(--secondary-color);
 }
-.book, .join {
-    background-color: var(--accent2-color);
+.book {
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     text-decoration: none;
 }
-.book:hover, .join:hover {
-    color: var(--accent1-color);
+.book:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+.join {
+    color: var(--secondary-color);
     background-color: var(--accent2-color);
+    text-decoration: none;
+}
+.join:hover {
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 #hero-img {
     width: 100%;
@@ -57,10 +66,10 @@ nav a:hover {
     text-align: center;
 }
 .home-title {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 h4 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .button-box {
     text-align: center;
@@ -73,7 +82,7 @@ main section {
     text-align: center;
 }
 footer {
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 footer a {
