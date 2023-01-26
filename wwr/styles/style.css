@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Kadwa&family=Open+Sans&display=swap');
 
 :root {
   /* My palette */
@@ -8,90 +8,227 @@
   --accent2-color: #376C95;
 
   /* My chosen font(s) */
-  --heading-font: Bitter;
+  --heading-font: Bitter, Kadwa, "Open Sans";
   --paragraph-font: "Open Sans", Helvetica, sans-serif;
 }
 
+/* <body> */
 body {
-    background-color: var(--accent2-color)
-}
-#content {
-    max-width: 1600px;
+    background-color: var(--accent2-color);
     margin: 0 auto;
+    padding: 0;
+    font-size: 22px;
 }
-header {
-    background-color: var(--primary-color);
-}
-.logo, .icon {
-    width: 80px;
-}
-#background {
-    height: 725px;
-    background-color: var(--primary-color);
-}
-nav a {
-    text-align: center;
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
-}
-.book {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-.book:hover {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-}
-.join {
-    color: var(--secondary-color);
-    background-color: var(--accent2-color);
-    text-decoration: none;
-}
-.join:hover {
-    color: var(--accent1-color);
-    background-color: var(--primary-color);
-}
-#hero-img {
-    width: 100%;
-}
-#hero-msg h1 {
-    text-align: center;
-} 
-#hero-msg h4 {
-    text-align: center;
-}
-.home-title {
-    color: var(--secondary-color);
-}
-h4 {
-    color: var(--secondary-color);
-}
-.button-box {
-    text-align: center;
-}
-.msg {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-main section {
-    text-align: center;
-}
-footer {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-}
-footer a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-footer a:hover {
-    color: var(--accent1-color);
-}
-footer p a:hover {
-    text-decoration: underline;
-}
+    /* <div id="content"> */
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+        /* <header> */
+        header {
+            background-color: var(--primary-color);
+            font-family: var(--paragraph-font);
+        }
+            /* <a id="logo_link"> */
+            #logo_link {
+                padding-top: 5px;
+            }
+                /*<img class="logo"> */
+                .logo{
+                    width: 80px;
+                }
+            /* </a> */
+            /* <nav> */
+                /* <a> </a> (4 links) */
+                nav a {
+                    text-align: center;
+                    color: var(--secondary-color);
+                    text-decoration: none;
+                    padding: 35px;
+                }
+                nav a:hover {
+                    background-color: var(--accent2-color);
+                    color: var(--secondary-color);
+                }
+            /* </nav> */
+            
+        /* </header> */
+        /* <div id="hero"> */
+            /* <div id="hero-box"> */
+                /* <img id="hero-img"> */
+                #hero-img {
+                    width: 100%;
+                }
+            /* </div> */
+            /* <section id="hero-msg"> */
+                /* <h1 class="home-title"></h1> */
+                .home-title {
+                    color: var(--secondary-color);
+                    font-family: var(--heading-font);
+                    font-size: 2em;
+                    margin-top: 10px;
+                }
+                #hero-msg h1 {
+                    text-align: center;
+                } 
+                /* <h4></h4> */
+                #hero-msg h4 {
+                    text-align: center;
+                }
+                h4 {
+                    color: var(--secondary-color);
+                    font-family: var(--heading-font);
+                }
+                /* <div class="button-box"> */
+                .button-box {
+                    text-align: center;
+                    font-family: var(--paragraph-font);
+                }
+                    /* <a class="book"></a>  <!--Call to action Button--> */
+                    .book {
+                        background-color: var(--primary-color);
+                        color: var(--secondary-color);
+                        text-decoration: none;
+                        font-family: var(--paragraph-font);
+                        font-size: 18px;
+                        padding: 15px 30px;
+                        margin-top: 50px;
+                        border-radius: 5px;
+                    }
+                    .book:hover {
+                        color: var(--primary-color);
+                        background-color: var(--secondary-color);
+                    }
+                /* </div> */
+            /* </section> */
+        /* </div> */
+
+        /* <main class="home-grid"> */
+        main section {
+            text-align: center;
+        }
+            /* <section class="rivers-card">   <!--Section 1: Rivers--> */
+            .rivers-card {
+                margin: 200px 0;
+            }
+                /* <img class="card-img"> */
+                .card-img {
+                    border: 10px solid var(--secondary-color);
+                }
+                main section img {
+                    box-sizing: border-box;
+                }
+                /* <img class="icon"> */
+                .icon {
+                    width: 80px;
+                    padding-top: 10px;
+                }
+                /* <h2></h2> */
+                h2 {
+                    color: var(--secondary-color);
+                    margin: 0;
+                }
+            /* </section> */
+            /* <section class="camping-card">   <!--Section 2: Camping--> */
+            .camping-card {
+                margin: 200px 0;
+            }
+                /* <img class="card-img"> */
+                /* <img class="icon"> */
+                /* <h2></h2> */
+            /* </section> */
+            /* <section class="rapids-card">   <!--Section 3: Rapids--> */
+            .rapids-card {
+                margin: 200px 0;
+            }
+                /* <img class="card-img"> */
+                /* <img class="icon"> */
+                /* <h2></h2> */
+            /* </section> */
+            /* <div id="background"></div>  */
+            #background {
+                height: 725px;
+                background-color: var(--primary-color);
+                color: var(--secondary-color);
+                font-family: var(--paragraph-font);
+                font-size: .9em;
+                margin: 100px 0;
+            }
+            /* <img class="mountains"> */
+            /* <section class="msg">   <!--MESSAGE--> */
+            .msg {
+                background-color: var(--secondary-color);
+                color: var(--primary-color);
+                font-family: var(--paragraph-font);
+                line-height: 1.5em;
+                padding: 35px;
+                margin: 50px 0;
+            }
+                /* <h2 class="msg-title"></h2> */
+                .msg-title {
+                    font-family: var(--heading-font);
+                    color: var(--primary-color);
+                }
+                /* <p></p> */
+                .msg p {
+                    font-size: .8em;
+                    padding-bottom: 15px;
+                }
+                /* <a class='join'></a> */
+                .join {
+                    color: var(--secondary-color);
+                    background-color: var(--accent2-color);
+                    text-decoration: none;
+                    font-size: 18px;
+                    padding: 15px 30px;
+                    margin-top: 50px;
+                    border-radius: 5px;
+                }
+                .join:hover {
+                    color: var(--accent1-color);
+                    background-color: var(--primary-color);
+                }
+            /* </section> */
+        /* </main> */
+        /* <footer> */
+        footer {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            font-family: var(--paragraph-font);
+            padding: 25px 50px;
+            margin-top: 200px;
+        }
+            /* <p></p> */
+            /* <p> */
+                /* <a></a> */
+                footer a {
+                    color: var(--secondary-color);
+                    text-decoration: none;
+                }
+                footer a:hover {
+                    color: var(--accent1-color);
+                }
+                footer p a:hover {
+                    text-decoration: underline;
+                }
+            /* </p> */
+            /* <p> */
+                /* <a></a> */
+            /* </p> */
+            /* <div class="social"> */
+                /* <a> */
+                    /* <img> */
+                    footer .social img {
+                        padding-top: 15px;
+                    }
+                /* </a> */
+                /* <a> */
+                    /* <img> */
+                /* </a> */
+                /* <a> */
+                    /* <img> */
+                /* </a> */
+            /* </div> */
+        /* </footer> */
+    /* </div> */
+/* </body> */
