@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Kadwa&family=Open+Sans&display=swap');
+
+:root {
+  /* My palette */
+  --primary-color: #2C5777;
+  --secondary-color: white;
+  --accent1-color: #FFECA2;
+  --accent2-color: #376C95;
+
+  /* My chosen font(s) */
+  --heading-font: Bitter, Kadwa, "Open Sans";
+  --paragraph-font: "Open Sans", Helvetica, sans-serif;
+}
+
+/* <body> */
+body {
+    background-color: var(--accent2-color);
+    margin: 0 auto;
+    font-size: 22px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+body a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: .4em;
+}
+body a:hover {
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+    width: 75px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+nav {
+    margin: 40px 0;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+footer p {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+footer a:hover {
+    text-decoration: none;
+    width: 55px;
+}
+footer img:hover{
+    border: 5px solid var(--accent2-color);
+}
