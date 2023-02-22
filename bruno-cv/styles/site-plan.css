@@ -24,46 +24,6 @@
   --nav-hover-background-color: var(--secondary-color);
 }
 
-/* Added to see the logo images better */
-.page-logo {
-  width: 150px;
-  background-color: var(--accent1-color);
-  margin: 20px;
-  box-sizing: border-box;
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
-}
-.logo-img {
-  width: 200px;
-}
-.grid-img {
-  display: grid;
-  grid-template-columns: auto;
-}
-.job-img {
-  width: 300px;
-  grid-row: 1;
-}
-ul{
-  text-align: justify;
-  color: var(--accent2-color);
-  font-family: var(--paragraph-font);
-}
-.list-no-deco {
- list-style-type: none;
-}
-.subtitles {
-  text-decoration: underline overline;
-}
-.title2 {
-  font-weight: bold;
-}
-.bruno-img {
-  width: 300px;
-}
-
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -209,4 +169,43 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/* Added to see the logo images better */
+.page-logo {
+  width: 150px;
+  background-color: var(--accent1-color);
+  margin: 20px;
+  box-sizing: border-box;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.logo-img {
+  width: 200px;
+}
+.grid-img {
+  display: grid;
+  grid-template-columns: auto;
+}
+.job-img {
+  width: 300px;
+  grid-row: 1;
+}
+ul{
+  text-align: justify;
+  color: var(--accent2-color);
+  font-family: var(--paragraph-font);
+}
+.list-no-deco {
+ list-style-type: none;
+}
+.subtitles {
+  text-decoration: underline overline;
+}
+.title2 {
+  font-weight: bold;
+}
+.bruno-img {
+  width: 300px;
 }
