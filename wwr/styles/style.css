@@ -469,8 +469,8 @@ body {
     grid-row: 6;
     width: 200px;
     margin: 40px;
-    align-self: top;
     justify-self: right;
+    align-self: start;
     margin-top: 80px;
     border: 5px solid var(--accent1-color);
     box-sizing: border-box;
@@ -543,7 +543,6 @@ body {
     .blog-grid img {
         padding: 0;
         box-sizing: border-box;
-        margin: 0 center;
         max-width: 250px;
     }
     .blog-grid h2 {
@@ -563,7 +562,7 @@ body {
         text-align: justify;
         margin: 0 auto;
     }
-    .blog-grid section {
+    .blog-grid div {
         border: 1px solid white;
         box-shadow: none;
         margin: 20px 10px;
