@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 Post Three</title>
+</head>
+<style>
+    body {
+        background-color: rgb(43, 43, 43);
+        max-width: 400px;
+        text-align: center;
+        font-family: Rockwell;
+    }
+    #border {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(14, 50px);
+    }
+    img {
+        width: 100%;
+        grid-row: 1/6;
+        grid-column: 1/4;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #texts {
+        background-color: white;
+        grid-column: 1/4;
+        grid-row: 6/13;
+    }
+    #blue-text {
+        color: rgb(54, 84, 154);
+        padding-top: 20px;
+    }
+    #description {
+        color: rgb(108, 108, 108);
+        padding: 10px 40px;
+        font-size: 1.3em;
+    }
+    #sq1, #sq2, #sq3 {
+        background-color: rgb(54, 84, 154);
+        color: white;
+        grid-row: 13/15;
+        align-items: center;
+        justify-items: center;
+        line-height: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #sq1 {
+        grid-column: 1/2;
+        border-radius: 0px 0px 0px 20px;
+    }
+    #sq1 .up-square {
+        margin-top: 24px;
+    }
+    #sq2 {
+        grid-column: 2/3;
+    }
+    #sq3 {
+        grid-column: 3/4;
+        border-radius: 0px 0px 20px 0px;
+    }
+    .up-square {
+        font-size: 1.9em;
+        padding: 0;
+    }
+    .up-square sup {
+        font-size: 0.6em;
+    }
+    .down-square {
+        font-size: 0.4em;
+    }
+</style>
+<body>
+    <div id="border">
+    <img src="https://byui-wdd.github.io/wdd130/ice/w09_ice_img.jpg" alt="bridge photo">
+    <div id="texts">
+        <p id="blue-text">3 weeks ago</p>
+        <h1>Post Three</h1>
+        <p id="description">From the image below create a webpage to look just like it. 
+            Try using grid for the layout. The grid doesn't necessarily need to be the 
+            whole card but at least the bottom portion of the card.
+            Try using grid for the layout.</p>
+    </div>
+        <section id="sq1">
+            <p class="up-square">5<sup>m</sup>
+            <br><small class="down-square">READ</small></p>
+        </section>
+        <section id="sq2">
+            <p class="up-square">2031
+            <br><small class="down-square">VIEWS</small></p>
+        </section>
+        <section id="sq3">
+            <p class="up-square">15
+            <br><small class="down-square">COMMENTS</small></p>
+        </section>
+    </div>
+</body>
+</html>
