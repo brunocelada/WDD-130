@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Ejemplo</title>
+
+<style type="text/css">
+
+  #circulo {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: orange;
+  }
+  
+  .animacion_completa {
+    animation: animacion 3s forwards;
+  }
+
+  .animacion_30_a_80 {
+    animation: animacion_30_80 3s forwards;
+  }
+
+  @keyframes animacion {
+    0%,20%{
+      left: 0px; 
+    }
+    30%,40%{
+      left: 250px;	
+    }
+    50%,60%{
+      left: 500px;	
+    }
+    70%,80%{
+      left: 750px;	
+    }
+    90%,100%{
+      left: 1000px;	
+    }
+  }
+
+  @keyframes animacion_30_80 {
+    30%,40%{
+      left: 250px;	
+    }
+    50%,60%{
+      left: 500px;	
+    }
+    70%,100%{
+      left: 750px;	
+    }
+  }
+</style>
+</head>
+<body>
+  <div id="circulo"></div>
+
+  <button id="completa">Animación completa</button>
+  <button id="30_80">Animación 30 a 80</button>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script>
+  $(() => {
+    classes = ['animacion_completa', 'animacion_30_a_80'];
+    target = $('#circulo');
+
+    function removeAllClasesExcept(except) {
+      classes.forEach((currentClass) => {
+          if(currentClass != except) {
+            target.removeClass(currentClass);
+          }
+        });
+    }
+
+    $('#completa').on('click', function() {
+      removeAllClasesExcept('animacion_completa')
+      target.addClass('animacion_completa');
+    });
+    $('#30_80').on('click', function() {
+      removeAllClasesExcept('animacion_30_a_80')
+      target.addClass('animacion_30_a_80');
+    });
+
+  });
+
+  
+  </script>
+</body>
+</html> 
