@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC CV | Contact Me</title>
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+</head>
+<body>
+<div id="content">
+
+    <!-- Header -->
+    <header>
+        <a id="logo-link" href="index.html">
+            <img id="logo-img" src="images/logo.png" alt="Logo CV">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="contact-me.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main id="contactme-page">
+
+        <hr><h2>CONTACT ME</h2><hr>
+
+        <div class="data contactme-section">
+            <h3>BRUNO CELADA</h3>
+            <p class="info">Age: 23 years old
+                <br>Marital Status: Single
+                <br>Nationality: Argentine
+                <br>Place of residence: Rosario, Argentina
+            </p>
+            <img src="images/bruno2.jpg" alt="Bruno photo">
+
+            <!-- Form -->
+            <form action="/contactedform.txt" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </li>
+                    <li>
+                        <label for="phone">Phone number (optional):</label>
+                        <input type="text" id="phone" name="phone">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="msg">Your message:</label>
+                        <textarea name="msg" id="message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send</button>
+                    </li>
+                </ul>
+            </form>
+
+            <h3>Contact Methods:</h3>
+            <p>
+                WhatsApp and telephone number: <a target="_blank" href="https://wa.me/5493416518799">+54 9 341 6518799</a>
+            <br>Personal email: <a target="_blank" href="mailto:brunocelada-4@hotmail.com">brunocelada-4@hotmail.com</a> 
+            <br>Corporate email: <a target="_blank" href="mailto:brunocelada@churchofjesuschrist.org">brunocelada@churchofjesuschrist.org</a> 
+            <br>Messenger: <a target="_blank" href="https://m.me/brunocelada4">Bruno Celada</a> 
+            <br>Instagram Direct: <a target="_blank" href="https://ig.me/m/brunocelada">brunocelada</a> 
+            </p>
+
+            <h3>References:</h3>
+            <p>Cesar Raul Torricella - SEI Rosario (+54 9 341 3304980)
+            <br>Rodolfo Cabrera - Unitec-BIO (+54 9 341 5948455)
+            <br>Leandro Juan Curaba - EMM (+54 9 341 5483180)</p>
+        </div>
+
+    </main>
+
+    <footer> <!-- Footer -->
+        <div class="social" style="background-color: black;">
+            <a target="_blank" href="https://www.linkedin.com/in/brunocelada/?locale=en_US">
+                <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
+            </a>
+            <a target="_blank" href="https://wa.me/5493416518799">
+                <img src="images/whatsapp-logo-white2.png" alt="Whatsapp Logo">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/brunocelada/">
+                <img src="images/instagram-logo-white.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <p>+54 9 341 651-8799
+        <br> brunocelada-4@hotmail.com
+        <br><br>&COPY;Bruno Celada 2023 - BYUI</p>
+        <a target="_blank" href="site-plan.html">Site Plan</a>
+    </footer>
+
+</div>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+</body>
+</html>

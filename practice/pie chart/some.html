@@ -51,10 +51,42 @@
       left: 750px;	
     }
   }
+  .la {
+    color: blue;
+    font-size: 55px;
+}
+.webera {
+    color: gray;
+    display: block;
+    font-size: 20px;
+}
+.es{
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    height:20px;
+    width:25px;
+}
+.inline-block{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline; 
+}
 </style>
 </head>
 <body>
-  <div id="circulo"></div>
+
+
+<div class="contenedor">
+  <span class="la">la</span> 
+  <span class="es inline-block">.es</span>
+  <span class="webera">webera</span> 
+</div>
+
+<div id="circulo"></div>
 
   <button id="completa">Animación completa</button>
   <button id="30_80">Animación 30 a 80</button>

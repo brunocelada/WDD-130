@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --primary-color: #00B4D8   ;
+  --secondary-color: #90E0EF ;
+  --accent1-color: #0077B6;
+  --accent2-color: #03045E;
+
+  --heading-font: "cascadia code", "Source Code Pro", sans-serif;
+  --paragraph-font: "Source Code Pro", Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  font-family: var(--paragraph-font);
+  font-size: 20px;
+  color: var(--paragraph-color-on-white); /* arreglar*/
+}
+a {
+  text-decoration: none;
+}
+#content {
+  max-width: 2600px;
+  margin: 0 auto;
+}
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  font-family: var(--heading-font);
+  background-color: var(--accent1-color);
+}
+#logo-link {
+  justify-self: center;
+  align-self: center;
+}
+#logo-img {
+  width: 50px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+}
+nav a:hover {
+  background-color: var(--primary-color);
+}
+#hero {
+  text-align: justify;
+  background-color: var(--secondary-color);
+  height: 350px;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+#hero-title {
+  font-size: 1,7em;
+  font-family: var(--heading-font);
+  grid-column: 1/5;
+  grid-row: 1;
+}
+#hero p {
+  grid-column: 1/5;
+  grid-row: 1;
+}
+#hero img {
+  height: 300px;
+  box-sizing: border-box;
+  grid-column: 5/7;
+  grid-row: 1;
+}
+
+#grid-studies, #grid-jobs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#studies a, #jobs a{
+  grid-column: 1/4;
+  font-size: 2em;
+}
+
+
+
+/* Footer */ 
+footer {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 20px 0 10px 0;
+}
+.social img {
+  width: 50px;
+}
+footer p{
+  font-size: 0.5em;
+}
