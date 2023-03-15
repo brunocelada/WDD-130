@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BC Curriculum Vitae</title>
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
@@ -16,15 +16,22 @@
             <img id="logo-img" src="images/logo.png" alt="Logo CV">
         </a>
         <nav>
-            <a href="index.html">Home</a>
+            <a class="menu-active" href="index.html">Home</a>
             <a href="education.html">Education</a>
             <a href="jobs.html">Jobs</a>
             <a href="contact-me.html">Contact Me</a>
+        </nav>
+        <nav id="nav-icon">
+            <a class="menu-active" href="index.html"><img src="images/home-icon.png" alt="Home"></a>
+            <a href="education.html"><img src="images/study-icon.png" alt="Education"></a>
+            <a href="jobs.html"><img src="images/job-icon.png" alt="Job"></a>
+            <a href="contact-me.html"><img src="images/contact-icon.png" alt="Contact"></a>
         </nav>
     </header>
 
     <!-- Hero -->
     <div id="hero">
+        <img src="images/bruno3.jpg" alt="Picture of myself">
         <h2 class="hero-title">WELCOME!</h2>
         <p class="hero-msg">Hello! I am Bruno Celada and this is my "Curriculum Vitae" web version. 
             I am 23 years old and I live in Rosario, Argentina. 
@@ -33,7 +40,7 @@
             technology (I study online programming), literature (I won 2 short story contests), 
             and they are a lover of movies and series.
             <br><br>Thank you for visiting the site! You can contact me for any question.</p>
-        <img src="images/bruno3.jpg" alt="Picture of myself">
+
     </div>
 
     <!-- Main -->
@@ -41,54 +48,54 @@
 
         <div id="studies"> <!-- Studies -->
             <hr>
-            <a href="education.html">STUDIES</a>
+            <a class="title" href="education.html">STUDIES</a>
             <hr>
 
             <div class="grid-studies">
                 <section class="study-block">
-                    <span class="red-span">Current</span>
+                    <span class="red-span">CURRENT</span>
                     <h4>BYUI</h4>
                     <p>Applied Technology</p>
-                    <div class="pie animate">13%</div>
+                    <div class="pie animate" style="--p:13;--b:10px;--w:100px">13%</div>
                 </section>
                 <section class="study-block">
-                    <span class="red-span">Current</span>
+                    <span class="red-span">CURRENT</span>
                     <h4>UNR</h4>
                     <p>Chemistry Degree</p>
-                    <div class="pie animate">35%</div>
+                    <div class="pie animate" style="--p:35;--b:10px;--w:100px">35%</div>
                 </section>
                 <section class="study-block">
-                    <span class="blue-span">Finalized</span>
+                    <span class="blue-span">FINALIDEZ</span>
                     <h4>IPS</h4>
                     <p>Chemical Technician</p>
-                    <div class="pie animate">100%</div>
+                    <div class="pie animate" style="--p:100;--b:10px;--w:100px">100%</div>
                 </section>
                 <section class="study-block">
-                    <span class="blue-span">Finalized</span>
+                    <span class="blue-span">FINALIDEZ</span>
                     <h4>PATHWAY</h4>
                     <p>PathwayConnect</p>
-                    <div class="pie animate">100%</div>
+                    <div class="pie animate" style="--p:100;--b:10px;--w:100px">100%</div>
                 </section>
                 <section class="study-block">
-                    <span class="blue-span">Finalized</span>
+                    <span class="blue-span">FINALIDEZ</span>
                     <h4>EMM ROSARIO</h4>
                     <p>Violinist</p>
-                    <div class="pie animate">100%</div>
+                    <div class="pie animate" style="--p:100;--b:10px;--w:100px">100%</div>
                 </section>
                 <section class="study-block">
-                    <span class="blue-span">Finalized</span>
+                    <span class="blue-span">FINALIDEZ</span>
                     <h4>EMM ROSARIO</h4>
                     <p>Musical Language</p>
-                    <div class="pie animate">100%</div>
+                    <div class="pie animate" style="--p:100;--b:10px;--w:100px">100%</div>
                 </section>
             </div>
 
-            <a class="mode-about" href="education.html">More about</a>
+            <a class="more-about" href="education.html">More about</a>
         </div>
 
         <div id="jobs"> <!-- Jobs -->
             <hr>
-            <a href="jobs.html">JOBS</a>
+            <a class="title" href="jobs.html">JOBS</a>
             <hr>
 
             <div class="grid-jobs">
@@ -96,29 +103,34 @@
                     <h4>SEI</h4>
                     <span class="normal-span red-span">Current</span>
                     <p>Administrative Assistant</p>
-                    <img style="background-color: blue;" src="images/job-sei-logo.png" alt="SEI Job">
+                    <img src="images/job-sei-logo.png" alt="SEI Job">
                 </section>
                 <section class="job-block">
                     <h4>AUTONOMOUS</h4>
                     <span class="normal-span blue-span">2021-2022</span>
                     <p>Tutor</p>
-                    <img style="background-color: blue;" src="images/job-student-logo.png" alt="SEI Job">
+                    <img src="images/job-student-logo.png" alt="SEI Job">
                 </section>
                 <section class="job-block">
                     <h4>UNITEC-BIO</h4>
                     <span class="normal-span blue-span">2018-2018</span>
                     <p>Laboratory Analyst</p>
-                    <img style="background-color: blue;" src="images/job-chemistry-logo.png" alt="SEI Job">
+                    <img src="images/job-chemistry-logo.png" alt="SEI Job">
                 </section>
             </div>
 
-            <a class="mode-about" href="jobs.html">More about</a>
+            <a class="more-about" href="jobs.html">More about</a>
         </div>
 
     </main>
 
     <footer> <!-- Footer -->
-        <div class="social" style="background-color: black;">
+        <p>+54 9 341 651-8799
+            <br> brunocelada-4@hotmail.com
+            <br>&COPY;Bruno Celada 2023 - BYUI</p>
+            <a class="siteplan" target="_blank" href="site-plan.html">Site Plan</a>
+
+        <div class="social">
             <a target="_blank" href="https://www.linkedin.com/in/brunocelada/?locale=en_US">
                 <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
             </a>
@@ -129,11 +141,8 @@
                 <img src="images/instagram-logo-white.png" alt="Instagram Logo">
             </a>
         </div>
-        <p>+54 9 341 651-8799
-        <br> brunocelada-4@hotmail.com
-        <br><br>&COPY;Bruno Celada 2023 - BYUI</p>
-        <a target="_blank" href="site-plan.html">Site Plan</a>
     </footer>
-    </div>
+
+</div>
 </body>
 </html>
