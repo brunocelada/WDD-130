@@ -11,6 +11,9 @@
   --paragraph-font: "Source Code Pro", Helvetica, sans-serif;
 
   --c: var(--primary-color);
+  --p: 100; /* 100% by default */
+  --b: 10px;
+  --w: 100px;
   --rotation: -25deg;
 }
 
@@ -163,6 +166,7 @@ nav a:hover {
 .title{
   font-size: 2em;
   color: white;
+  margin: 5px auto;
 }
 hr {
   background-color: white;
@@ -199,7 +203,7 @@ h4 {
 .job-block {
   padding-bottom: 40px;
 }
-.study-block p, .job-block p {
+.study-block p, .job-block p, .dates {
   font-style: italic;
   font-size: 0.8em;
 }
@@ -318,6 +322,48 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
   padding: 0;
 }
 
+/* Education Page */
+.study-section {
+  background-color: rgb(232, 232, 232);
+  color: var(--accent2-color);
+  max-width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+.description, .subtitle, .dates, .study-section h3{
+  padding: 0 5%;
+}
+.description{
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.subtitle{
+  font-size: 1.1em;
+}
+.study-section h3{
+  padding-top: 40px;
+}
+.study-logo {
+  width: 120px;
+  margin: 10px 3% 0 5%;
+  float: left;
+  transition: all 0.2s;
+  border: 2px solid var(--accent2-color);
+  border-radius: 5px;
+}
+.study-logo:hover{
+  opacity: 0.8;
+}
+.small-pie{
+  --w: 75px;
+  --b: 8px;
+  font-size: 0.7em;
+  position: absolute;
+  top: inherit;
+  right: 5%; 
+}
 
 /* Footer */ 
 footer {
@@ -362,6 +408,9 @@ footer p{
   .social img{
     width: 20px;
   }
+  .study-logo{
+    width: 100px;
+  }
 }
 @media only screen and (max-width:700px) {
   body {
@@ -371,7 +420,17 @@ footer p{
     max-width: 76%;
   }
   .modal-content {
-    width: 100%;
+    width: 90%;
+  }
+  #myImg{
+    margin-left: 3%;
+  }
+  #logo-img{
+    width: 40px;
+    margin: 0 10px;
+  }
+  .study-logo{
+    width: 90px;
   }
 }
 @media only screen and (max-width:600px) {
@@ -382,7 +441,7 @@ footer p{
     margin: 2%;
     padding: 2%;
   }
-  #hero img{
+  #myImg{
     margin: auto;
     margin-left: 2%;
     width: 40%;
@@ -390,7 +449,15 @@ footer p{
   .grid-jobs, .grid-studies{
     grid-gap: 2%;
     max-width: 95%;
-    }
+  }
+  .study-logo{
+    width: 80px;
+  }
+  .small-pie{
+    --w: 60px;
+    --b: 6px;
+    font-size: 0.8em;
+  }
 }
 @media only screen and (max-width:550px) {
   header nav{
@@ -407,11 +474,15 @@ footer p{
     display: flex;
     justify-content: space-around;
   }
-  #logo-img{
-    width: 40px;
-    margin: 0 10px;
+  .description{
+    text-align: left;
   }
-  
+  .study-section h3{
+    padding-top: 20px;
+  }
+  .study-section h3:nth-child(2){
+    padding-right: 10%;
+  }
 }
 @media only screen and (max-width:400px) {
   .grid-jobs, .grid-studies{
@@ -420,7 +491,7 @@ footer p{
   .study-block, .job-block{
     margin: 3% 10%;
   }
-  span{
+  .job-block span, .study-block span{
     -webkit-transform: rotate(0deg); 
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -431,5 +502,9 @@ footer p{
   }
   h4{
     margin: 2% auto;
+  }
+  .study-logo{
+    width: 50px;
+    margin: 5px 20px;
   }
 }
