@@ -224,7 +224,7 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
   font-weight: bold;
   font-size: 0.9em;
 }
-.normal-span {
+.job-block .normal-span {
   -webkit-transform: rotate(0deg); 
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
