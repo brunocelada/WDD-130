@@ -89,13 +89,73 @@ nav a:hover {
   font-size: 1em;
   padding: 0;
 }
-#hero img {
+#myImg {
   width: 23%;
   box-sizing: border-box;
   border-radius: 5px;
   float: right;
   margin: 5% auto;
   margin-left: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg:hover {opacity: 0.85;}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Main */
@@ -151,7 +211,7 @@ h4 {
 /* Span */
 /* Info taked from lawebera.es:
 https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
-span {
+.study-block span, .job-block span {
   -webkit-transform: rotate(var(--rotation)); 
   -moz-transform: rotate(var(--rotation));
   -o-transform: rotate(var(--rotation));
@@ -292,7 +352,7 @@ footer p{
   padding-left: 30px;
 }
 
-@media screen and (max-width:900px){
+@media only screen and (max-width:900px){
   body {
     font-size: 16px;
   }
@@ -303,15 +363,18 @@ footer p{
     width: 20px;
   }
 }
-@media screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
   body {
     font-size: 14px;
   }
   .grid-studies{
     max-width: 76%;
   }
+  .modal-content {
+    width: 100%;
+  }
 }
-@media screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
   body {
     font-size: 12px;
   }
@@ -329,7 +392,7 @@ footer p{
     max-width: 95%;
     }
 }
-@media screen and (max-width:550px) {
+@media only screen and (max-width:550px) {
   header nav{
     display: none;
   }
@@ -350,7 +413,7 @@ footer p{
   }
   
 }
-@media screen and (max-width:400px) {
+@media only screen and (max-width:400px) {
   .grid-jobs, .grid-studies{
     display: block;
   }

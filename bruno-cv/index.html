@@ -31,7 +31,7 @@
 
     <!-- Hero -->
     <div id="hero">
-        <img src="images/bruno3.jpg" alt="Picture of myself">
+        <img id="myImg" src="images/bruno3.jpg" alt="Bruno Celada">
         <h2 class="hero-title">WELCOME!</h2>
         <p class="hero-msg">Hello! I am Bruno Celada and this is my "Curriculum Vitae" web version. 
             I am 23 years old and I live in Rosario, Argentina. 
@@ -40,6 +40,19 @@
             technology (I study online programming), literature (I won 2 short story contests), 
             and they are a lover of movies and series.
             <br><br>Thank you for visiting the site! You can contact me for any question.</p>
+    
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+        
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+        
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
 
     </div>
 
@@ -144,5 +157,27 @@
     </footer>
 
 </div>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
 </body>
 </html>
