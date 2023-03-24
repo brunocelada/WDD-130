@@ -323,7 +323,7 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
 }
 
 /* Education Page */
-.study-section {
+.study-section, .job-section, .contactme-section {
   background-color: rgb(232, 232, 232);
   color: var(--accent2-color);
   max-width: 90%;
@@ -332,7 +332,7 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
   text-align: left;
   padding-bottom: 5px;
 }
-.description, .subtitle, .dates, .study-section h3{
+.description, .subtitle, .dates, .data h3{
   padding: 0 5%;
 }
 .description{
@@ -342,16 +342,19 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
 .subtitle{
   font-size: 1.1em;
 }
-.study-section h3{
+.data h3{
   padding-top: 40px;
 }
-.study-logo {
+.study-logo, .job-logo {
   width: 120px;
   margin: 10px 3% 0 5%;
   float: left;
   transition: all 0.2s;
   border: 2px solid var(--accent2-color);
   border-radius: 5px;
+}
+.job-logo {
+  width: 250px;
 }
 .study-logo:hover{
   opacity: 0.8;
@@ -363,6 +366,141 @@ https://www.lawebera.es/como-hacer/ejemplos-css/rotacion-texto-con-css.php */
   position: absolute;
   top: inherit;
   right: 5%; 
+}
+
+/* Jobs Page */
+.current-job img {
+  width: 350px;
+  float: right;
+
+}
+
+/* Contact Me Page */
+#contactme-page{
+  margin: 10px auto;
+}
+#h3name{
+  text-align: right; 
+  padding-top: 80px; 
+  font-size: 2.5em;
+}
+.datax{
+  text-align: right;
+  font-size: 1.3em; 
+  min-height: 320px;
+}
+.contactme-section h3{
+  font-size: 1.4em;
+}
+.contactme-section .description{
+  font-size: 1.3em;
+}
+.description a{
+  text-decoration: underline;
+  color: var(--accent1-color);
+}
+.description a:hover{
+  color: var(--accent2-color);
+}
+#contactme-img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  float: right;
+  margin: 40px 3% 0 5%;
+  transition: all 0.2s;
+  border: 2px solid var(--accent2-color);
+  border-radius: 5px;
+}
+form {
+  background-color: white;
+  /* Center the form on the page */
+  margin: 40px auto;
+  margin-bottom: 20px;
+  width: 80%;
+  /* Form outline */
+  padding: 1em;
+  border: 2px solid var(--accent2-color);
+  border-radius: 1em;
+}
+form ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  color: var(--accent2-color);
+  font-family: var(--paragraph-font);
+}
+form li + li {
+  margin-top: 1.7em;
+}
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+        By default, textareas have a monospace font */
+    font: 2em;
+    font-family: var(--paragraph-font);
+
+    /* Uniform text field size */
+    width: 60%;
+    height: 2em;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid var(--accent2-color);
+    color: var(--accent2-color);
+}
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: var(--accent2-color);
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    color: var(--accent2-color);
+
+    /* Provide space to type some text */
+    height: 10em;
+}
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+        between the labels and their text fields */
+    margin-left: 5em;
+    font-family: var(--paragraph-font);
+    color: white;
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent2-color);
+    border-radius: 0.2em;
+    font-size: 1.2em;
+}
+#feedback {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  font-family: var(--paragraph-font);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;     
+}
+.moveDown {
+  margin-top: 2em;
+  transition: all 0.3s;
+}
+.tiempo {
+  display:none;
 }
 
 /* Footer */ 
@@ -411,6 +549,12 @@ footer p{
   .study-logo{
     width: 100px;
   }
+  .job-logo{
+    width: 200px;
+  }
+  .current-job img {
+    width: 300px;
+  }
 }
 @media only screen and (max-width:700px) {
   body {
@@ -431,6 +575,23 @@ footer p{
   }
   .study-logo{
     width: 90px;
+  }
+  .current-job img {
+    width: 200px;
+  }
+  #contactme-img {
+    width: 250px;
+    height: 300px;
+  }
+  label{
+    width: 120px;
+  }
+  .contactme-section .description{
+    text-align: left;
+  }
+  .datax{
+    min-height: 0px;
+    text-align: right;
   }
 }
 @media only screen and (max-width:600px) {
@@ -483,6 +644,23 @@ footer p{
   .study-section h3:nth-child(2){
     padding-right: 10%;
   }
+  .job-logo{
+    width: 150px;
+    border: none;
+  }
+  .current-job img {
+    width: 150px;
+  }
+  
+  #contactme-img {
+    width: 180px;
+    height: 220px;
+  }
+  #h3name{
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width:400px) {
   .grid-jobs, .grid-studies{
@@ -506,5 +684,21 @@ footer p{
   .study-logo{
     width: 50px;
     margin: 5px 20px;
+  }
+  .job-logo{
+    width: 90px;
+  }
+  .current-job img {
+    width: 120px;
+  }
+  #contactme-img {
+    width: 200px;
+    height: 280px;
+    float: none;
+    margin: 10%;
+  }
+  
+  label{
+    width: 100px;
   }
 }

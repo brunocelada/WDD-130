@@ -35,20 +35,22 @@
         <hr><h2 class="title">CONTACT ME</h2><hr>
 
         <div class="data contactme-section">
-            <h3>BRUNO CELADA</h3>
-            <p class="info">Age: 23 years old
+            <img id="contactme-img" src="images/bruno2.jpg" alt="Bruno photo">
+            <h3 id="h3name">BRUNO CELADA</h3>
+            <p class="datax description">
+                <br>Age: 23 years old
                 <br>Marital Status: Single
                 <br>Nationality: Argentine
                 <br>Place of residence: Rosario, Argentina
             </p>
-            <img src="images/bruno2.jpg" alt="Bruno photo">
 
             <!-- Form -->
+            <div id="feedback" class="tiempo"></div>
             <form action="/contactedform.txt" method="post">
-                <ul>
+                <ul >
                     <li>
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="user_name">
                     </li>
                     <li>
                         <label for="phone">Phone number (optional):</label>
@@ -69,7 +71,7 @@
             </form>
 
             <h3>Contact Methods:</h3>
-            <p>
+            <p class="description">
                 WhatsApp and telephone number: <a target="_blank" href="https://wa.me/5493416518799">+54 9 341 6518799</a>
             <br>Personal email: <a target="_blank" href="mailto:brunocelada-4@hotmail.com">brunocelada-4@hotmail.com</a> 
             <br>Corporate email: <a target="_blank" href="mailto:brunocelada@churchofjesuschrist.org">brunocelada@churchofjesuschrist.org</a> 
@@ -78,7 +80,7 @@
             </p>
 
             <h3>References:</h3>
-            <p>Cesar Raul Torricella - SEI Rosario (+54 9 341 3304980)
+            <p class="description">Cesar Raul Torricella - SEI Rosario (+54 9 341 3304980)
             <br>Rodolfo Cabrera - Unitec-BIO (+54 9 341 5948455)
             <br>Leandro Juan Curaba - EMM (+54 9 341 5483180)</p>
         </div>
@@ -114,8 +116,8 @@
     formElement.addEventListener('submit', function(e) {
         // stop the form from doing the default action.
         e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. 
+        feedbackElement.innerHTML = 'Hi '+ formElement.user_name.value +'! Thank you for your message. I will be in touch!';
         // make the feedback element visible.
         feedbackElement.style.display = "block";
         // add a class to move everything down so our message doesn't cover it.
