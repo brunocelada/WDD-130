@@ -1,0 +1,108 @@
+[
+    {
+        "nombre" : "INSTITUTO ROSARIO",
+        "cursos" : [
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/1.jpg",
+            "titulo" : "ENSEÑANZAS Y DOCTRINA DEL LIBRO DE MORMON",
+            "horario" : "Martes 08:00 hs",
+            "instructor" : "Sandra Ibañez",
+            "modalidad" : "Virtual",
+            "linkWSP" : "https://chat.whatsapp.com/LcDASk3XGeBAhxs7HxaoMs",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/teachings-and-doctrine-of-the-book-of-mormon-class-prep-material-2021?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/2.jpg",
+            "titulo" : "EL LIBRO DE ISAIAS",
+            "horario" : "Martes 16:00 hs",
+            "instructor" : "Cesar Torricella",
+            "modalidad" : "Mixta",
+            "linkWSP" : "https://chat.whatsapp.com/Kgytq30XbXFJ1EGdgmPobj",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/the-book-of-isaiah-student-readings?lang=spa"
+        },
+        {
+            "status" : false,
+            "img" : "images/Cursos 2P 2023/3.jpg",
+            "titulo" : "HISTORIA FAMILIAR",
+            "horario" : "Martes 19:00 hs",
+            "instructor" : "Asesores del Área",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/EcrOgaIlrJ55hANnm4BrEZ",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/introduction-to-family-history-student-readings?lang=spa"
+        }]
+    },
+    {
+        "nombre" : "INSTITUTO SAN NICOLÁS",
+        "cursos" : [
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/sn1.jpg",
+            "titulo" : "LA PERLA DE GRAN PRECIO",
+            "horario" : "Lunes 06:00 hs",
+            "instructor" : "Javier Cacciavillani",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/JrsOLzo8v7dCcTOhwSEdgd",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-primary-electives-student-readings/pearl-of-great-price-religion-327?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/sn2.jpg",
+            "titulo" : "PREPARACION MISIONAL",
+            "horario" : "Sabado 16:30 hs",
+            "instructor" : "Daniela Ramos",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/DnVDzGKPFdV0x3V0igiIrI",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-a-guide-to-missionary-service?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/sn3.jpg",
+            "titulo" : "LA FAMILIA ETERNA",
+            "horario" : "Sabado 17:30 hs",
+            "instructor" : "Abril Salarayan",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/GaC7Gmv8Li8ByvnwDKFLAV",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/the-eternal-family-class-prep-material-2022?lang=spa"
+        }]
+    },
+    {
+        "nombre" : "INSTITUTO PERGAMINO",
+        "cursos" : [
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/p2.jpg",
+            "titulo" : "EL LIBRO DE ISAIAS",
+            "horario" : "Miercoles 19:00 hs",
+            "instructor" : "Jonatan Muñoz",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/LQDMDCJdZR97GN4F50RwtY",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/the-book-of-isaiah-student-readings?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/p1.jpg",
+            "titulo" : "FUNDAMENTOS DE LA RESTAURACION",
+            "horario" : "Jueves 19:00 hs",
+            "instructor" : "Mariel Fusco",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/CtSyOKp3nCPIeFJ5s7sJBs",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/foundations-of-the-restoration-class-preparation-material-2019?lang=spa"
+        }]
+    },
+    {
+        "nombre" : "INSTITUTO VENADO TUERTO",
+        "cursos" : [
+        {
+            "status" : true,
+            "img" : "images/Cursos 2P 2023/vt1.jpg",
+            "titulo" : "ENSEÑANZAS Y DOCTRINA DEL LIBRO DE MORMON",
+            "horario" : "Martes 19:00 hs",
+            "instructor" : "Julio de Angelis",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/Ehju4m4I5U82NF39MvuNQL",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/teachings-and-doctrine-of-the-book-of-mormon-class-prep-material-2021?lang=spa"
+        }]
+    }
+]
