@@ -4,7 +4,7 @@
         "cursos" : [
         {
             "status" : true,
-            "img" : "images/Cursos 3P 2023/1.png",
+            "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/1.png?raw=true",
             "titulo" : "JESUCRISTO Y EL EVANGELIO SEMPITERNO",
             "horario" : "Martes 08:00 hs",
             "instructor" : "Sandra Ibañez",
