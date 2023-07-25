@@ -4,105 +4,155 @@
         "cursos" : [
         {
             "status" : true,
-            "img" : "images/Cursos 2P 2023/1.jpg",
-            "titulo" : "ENSEÑANZAS Y DOCTRINA DEL LIBRO DE MORMON",
+            "img" : "images/Cursos 3P 2023/1.png",
+            "titulo" : "JESUCRISTO Y EL EVANGELIO SEMPITERNO",
             "horario" : "Martes 08:00 hs",
             "instructor" : "Sandra Ibañez",
             "modalidad" : "Virtual",
-            "linkWSP" : "https://chat.whatsapp.com/LcDASk3XGeBAhxs7HxaoMs",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/teachings-and-doctrine-of-the-book-of-mormon-class-prep-material-2021?lang=spa"
+            "linkWSP" : "https://chat.whatsapp.com/EsAW6Ey5YF6LoUsxGkcFlP",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/jesus-christ-and-his-everlasting-gospel-class-prep-material-2023?lang=spa"
         },
         {
             "status" : true,
-            "img" : "images/Cursos 2P 2023/2.jpg",
-            "titulo" : "EL LIBRO DE ISAIAS",
+            "img" : "images/Cursos 3P 2023/2.png",
+            "titulo" : "ALGO HABRAN HECHO - APOSTOLES SIGLO 1DC",
             "horario" : "Martes 16:00 hs",
             "instructor" : "Cesar Torricella",
             "modalidad" : "Mixta",
-            "linkWSP" : "https://chat.whatsapp.com/Kgytq30XbXFJ1EGdgmPobj",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/the-book-of-isaiah-student-readings?lang=spa"
+            "linkWSP" : "https://chat.whatsapp.com/Jt1plNLaZZa9KXV9zz8ocL",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-primary-electives-student-readings/new-testament-acts-to-revelation-religion-212?lang=spa"
         },
         {
-            "status" : false,
-            "img" : "images/Cursos 2P 2023/3.jpg",
-            "titulo" : "HISTORIA FAMILIAR",
-            "horario" : "Martes 19:00 hs",
-            "instructor" : "Asesores del Área",
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/3.png",
+            "titulo" : "LA FAMILIA ETERNA",
+            "horario" : "Martes 20:00 hs",
+            "instructor" : "Horacio Tasca",
             "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/EcrOgaIlrJ55hANnm4BrEZ",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/introduction-to-family-history-student-readings?lang=spa"
+            "linkWSP" : "https://chat.whatsapp.com/CGl8bAQErnfB60EFhydZl9",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/the-eternal-family-class-prep-material-2022?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/4.png",
+            "titulo" : "HIMNOS (No es coro)",
+            "horario" : "Miércoles 16:00 hs",
+            "instructor" : "Luciana Antuña",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/HzQSvIUWjGsKwN5IAjSdYu",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/latter-day-hymns-student-readings?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/5.png",
+            "titulo" : "LAS RELIGIONES DEL MUNDO",
+            "horario" : "Miércoles 18:00 hs",
+            "instructor" : "Betiana Abonizio",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/CH17i1A6wG0LjML56FBcTd",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/the-restored-gospel-and-world-religions-student-readings?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/6.png",
+            "titulo" : "PREPARACION MISIONAL",
+            "horario" : "Miércoles 19:00 hs",
+            "instructor" : "Alba Buono",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/CCtSpdIlJhC4pcl8HDWvsw",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/7.png",
+            "titulo" : "THE DIVINE GIFT OF FORGIVENESS",
+            "horario" : "Miércoles 20:00 hs",
+            "instructor" : "Jazmín Curaba",
+            "modalidad" : "Virtual",
+            "linkWSP" : "https://chat.whatsapp.com/FUvu3SCS82H3nmwAy8PIUq",
+            "linkMAT" : "https://drive.google.com/file/d/1LRc4_qABQJOGo_a_8Xn_iZeCsVykVhNL/view?usp=sharing"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/8.png",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/9.png",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : "https://drive.google.com/file/d/1LRc4_qABQJOGo_a_8Xn_iZeCsVykVhNL/view?usp=sharing"
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/10.png",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
+        },
+        {
+            "status" : true,
+            "img" : "images/Cursos 3P 2023/11.png",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
         }]
     },
     {
         "nombre" : "INSTITUTO SAN NICOLÁS",
         "cursos" : [
         {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/sn1.jpg",
-            "titulo" : "LA PERLA DE GRAN PRECIO",
-            "horario" : "Lunes 06:00 hs",
-            "instructor" : "Javier Cacciavillani",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/JrsOLzo8v7dCcTOhwSEdgd",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-primary-electives-student-readings/pearl-of-great-price-religion-327?lang=spa"
-        },
-        {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/sn2.jpg",
-            "titulo" : "PREPARACION MISIONAL",
-            "horario" : "Sabado 16:30 hs",
-            "instructor" : "Daniela Ramos",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/DnVDzGKPFdV0x3V0igiIrI",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-a-guide-to-missionary-service?lang=spa"
-        },
-        {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/sn3.jpg",
-            "titulo" : "LA FAMILIA ETERNA",
-            "horario" : "Sabado 17:30 hs",
-            "instructor" : "Abril Salarayan",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/GaC7Gmv8Li8ByvnwDKFLAV",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/the-eternal-family-class-prep-material-2022?lang=spa"
+            "status" : false,
+            "img" : "",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
         }]
     },
     {
         "nombre" : "INSTITUTO PERGAMINO",
         "cursos" : [
         {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/p2.jpg",
-            "titulo" : "EL LIBRO DE ISAIAS",
-            "horario" : "Miercoles 19:00 hs",
-            "instructor" : "Jonatan Muñoz",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/LQDMDCJdZR97GN4F50RwtY",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/the-book-of-isaiah-student-readings?lang=spa"
-        },
-        {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/p1.jpg",
-            "titulo" : "FUNDAMENTOS DE LA RESTAURACION",
-            "horario" : "Jueves 19:00 hs",
-            "instructor" : "Mariel Fusco",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/CtSyOKp3nCPIeFJ5s7sJBs",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/foundations-of-the-restoration-class-preparation-material-2019?lang=spa"
+            "status" : false,
+            "img" : "",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
         }]
     },
     {
         "nombre" : "INSTITUTO VENADO TUERTO",
         "cursos" : [
         {
-            "status" : true,
-            "img" : "images/Cursos 2P 2023/vt1.jpg",
-            "titulo" : "ENSEÑANZAS Y DOCTRINA DEL LIBRO DE MORMON",
-            "horario" : "Martes 19:00 hs",
-            "instructor" : "Julio de Angelis",
-            "modalidad" : "Presencial",
-            "linkWSP" : "https://chat.whatsapp.com/Ehju4m4I5U82NF39MvuNQL",
-            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/teachings-and-doctrine-of-the-book-of-mormon-class-prep-material-2021?lang=spa"
+            "status" : false,
+            "img" : "",
+            "titulo" : "",
+            "horario" : "",
+            "instructor" : "",
+            "modalidad" : "",
+            "linkWSP" : "",
+            "linkMAT" : ""
         }]
     }
 ]
