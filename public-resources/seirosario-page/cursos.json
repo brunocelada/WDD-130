@@ -15,7 +15,7 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/2.png?raw=true",
-            "titulo" : "ALGO HABRAN HECHO - APOSTOLES SIGLO 1DC",
+            "titulo" : "ALGO HABRÁN HECHO Apóstoles Siglo 1DC",
             "horario" : "Martes 16:00 hs",
             "instructor" : "Cesar Torricella",
             "modalidad" : "Mixta",
@@ -35,7 +35,7 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/4.png?raw=true",
-            "titulo" : "HIMNOS (No es coro)",
+            "titulo" : "HIMNOS        (No es coro)",
             "horario" : "Miércoles 16:00 hs",
             "instructor" : "Luciana Antuña",
             "modalidad" : "Presencial",
@@ -55,7 +55,7 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/6.png?raw=true",
-            "titulo" : "PREPARACION MISIONAL",
+            "titulo" : "PREPARACIÓN MISIONAL",
             "horario" : "Miércoles 19:00 hs",
             "instructor" : "Alba Buono",
             "modalidad" : "Presencial",
@@ -75,7 +75,7 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/8.png?raw=true",
-            "titulo" : "HISTORIA FAMILIAR (6 Lecciones)",
+            "titulo" : "HISTORIA FAMILIAR     (6 Lecciones)",
             "horario" : "Miércoles 19:00 hs",
             "instructor" : "Matrimonio Zacarías",
             "modalidad" : "Presencial (Hay laptops disponibles)",
@@ -85,7 +85,7 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/9.png?raw=true",
-            "titulo" : "EL DON DIVINO DEL PERDON",
+            "titulo" : "EL DON DIVINO DEL PERDÓN",
             "horario" : "Miércoles 20:30 hs",
             "instructor" : "Cesar Torricella",
             "modalidad" : "Presencial",
