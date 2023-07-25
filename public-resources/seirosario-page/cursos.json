@@ -75,42 +75,42 @@
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/8.png?raw=true",
-            "titulo" : "",
-            "horario" : "",
-            "instructor" : "",
-            "modalidad" : "",
-            "linkWSP" : "",
-            "linkMAT" : ""
+            "titulo" : "HISTORIA FAMILIAR (6 Lecciones)",
+            "horario" : "Miércoles 19:00 hs",
+            "instructor" : "Matrimonio Zacarías",
+            "modalidad" : "Presencial (Hay laptops disponibles)",
+            "linkWSP" : "https://chat.whatsapp.com/BG5NFjrBTou5Mm9kUGAc0i",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/introduction-to-family-history-student-readings?lang=spa"
         },
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/9.png?raw=true",
-            "titulo" : "",
-            "horario" : "",
-            "instructor" : "",
-            "modalidad" : "",
-            "linkWSP" : "",
+            "titulo" : "EL DON DIVINO DEL PERDON",
+            "horario" : "Miércoles 20:30 hs",
+            "instructor" : "Cesar Torricella",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/DxCqEBsVWrv4yh7NbFZ6u2",
             "linkMAT" : "https://drive.google.com/file/d/1LRc4_qABQJOGo_a_8Xn_iZeCsVykVhNL/view?usp=sharing"
         },
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/10.png?raw=true",
-            "titulo" : "",
-            "horario" : "",
-            "instructor" : "",
-            "modalidad" : "",
-            "linkWSP" : "",
-            "linkMAT" : ""
+            "titulo" : "SANTOS TOMO 1",
+            "horario" : "Jueves 18:00 hs",
+            "instructor" : "Natalia Hansen",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/Jn0inORgGeHJowavpHTtSN",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/history/saints-v1?lang=spa"
         },
         {
             "status" : true,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/11.png?raw=true",
-            "titulo" : "",
-            "horario" : "",
-            "instructor" : "",
-            "modalidad" : "",
-            "linkWSP" : "",
-            "linkMAT" : ""
+            "titulo" : "¡QUIERO ESTUDIAR! (Taller para FPE)",
+            "horario" : "Jueves 20:00 hs",
+            "instructor" : "Ismael Antuña",
+            "modalidad" : "Presencial",
+            "linkWSP" : "https://chat.whatsapp.com/CTN9CiDoZKB1JVm1a46GQX",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/education-for-better-work-for-self-reliance?lang=spa"
         }]
     },
     {
