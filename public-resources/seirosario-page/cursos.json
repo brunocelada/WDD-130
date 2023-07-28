@@ -117,6 +117,40 @@
         "nombre" : "INSTITUTO SAN NICOLÁS",
         "cursos" : [
         {
+            "status" : true,
+            "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/sn1.png?raw=true",
+            "titulo" : "MUJERES DE LAS ESCRITURAS",
+            "horario" : "Horario a confirmar",
+            "instructor" : "Instructor/a: A confirmar",
+            "modalidad" : "Modalidad: Presencial",
+            "linkWSP" : "",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-secondary-electives-student-readings-and-selected-course-outlines/women-in-the-scriptures-student-readings?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/sn2.png?raw=true",
+            "titulo" : "FUNDAMENTOS DE LA RESTAURACIÓN",
+            "horario" : "Horario a confirmar",
+            "instructor" : "Instructor/a: A confirmar",
+            "modalidad" : "Modalidad: Presencial",
+            "linkWSP" : "",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/foundations-of-the-restoration-class-preparation-material-2019?lang=spa"
+        },
+        {
+            "status" : true,
+            "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/sn3.png?raw=true",
+            "titulo" : "PREPARACIÓN MISIONAL",
+            "horario" : "Horario a confirmar",
+            "instructor" : "Instructor/a: A confirmar",
+            "modalidad" : "Modalidad: Presencial",
+            "linkWSP" : "",
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/preach-my-gospel-2023?lang=spa"
+        }]
+    },
+    {
+        "nombre" : "INSTITUTO PERGAMINO",
+        "cursos" : [
+        {
             "status" : false,
             "img" : "",
             "titulo" : "",
@@ -125,11 +159,7 @@
             "modalidad" : "Modalidad: ",
             "linkWSP" : "",
             "linkMAT" : ""
-        }]
-    },
-    {
-        "nombre" : "INSTITUTO PERGAMINO",
-        "cursos" : [
+        },
         {
             "status" : false,
             "img" : "",
@@ -145,14 +175,14 @@
         "nombre" : "INSTITUTO VENADO TUERTO",
         "cursos" : [
         {
-            "status" : false,
-            "img" : "",
-            "titulo" : "",
-            "horario" : "",
-            "instructor" : "Instructor/a: ",
-            "modalidad" : "Modalidad: ",
+            "status" : true,
+            "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/vt1.png?raw=true",
+            "titulo" : "ENSEÑANZAS DEL PRESIDENTE RUSELL M. NELSON",
+            "horario" : "Horario a confirmar",
+            "instructor" : "Instructor/a: A confirmar",
+            "modalidad" : "Modalidad: Presencial",
             "linkWSP" : "",
-            "linkMAT" : ""
+            "linkMAT" : "https://www.churchofjesuschrist.org/study/manual/institute-selected-course-outlines/course-390r-nelson?lang=spa"
         }]
     }
 ]
