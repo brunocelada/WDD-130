@@ -117,7 +117,7 @@
         "nombre" : "INSTITUTO SAN NICOLÁS",
         "cursos" : [
         {
-            "status" : true,
+            "status" : false,
             "img" : "https://github.com/brunocelada/WDD-130/blob/master/public-resources/seirosario-page/Cursos%203P%202023/sn1.png?raw=true",
             "titulo" : "MUJERES DE LAS ESCRITURAS",
             "horario" : "Horario a confirmar",
