@@ -96,9 +96,9 @@ nav a:hover {
   width: 23%;
   box-sizing: border-box;
   border-radius: 5px;
-  float: right;
   margin: 5% auto;
   margin-left: 40px;
+  float: right;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -511,7 +511,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-items: center
+  justify-items: center;
 }
 footer a{
   color: white;
